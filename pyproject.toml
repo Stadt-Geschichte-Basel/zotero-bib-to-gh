@@ -1,0 +1,12 @@
+[project]
+name = "zotero-bib-to-gh"
+version = "0.1.0"
+description = "GitHub action to automatically retrieve your Zotero collection in BibLaTeX format at 8:00, 12:00 and 18:00 and save it as GitHub repository."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "httpx>=0.27.2",
+    "logzero>=1.7.0",
+    "stamina>=24.3.0",
+]
